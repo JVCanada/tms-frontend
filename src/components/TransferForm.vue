@@ -171,7 +171,6 @@ async function handleSubmit() {
         <label class="field">
           <span>Data da transferência</span>
           <input v-model="transferDate" type="date" :min="minDate" />
-          <small>Data em que a transferência será realizada</small>
         </label>
       </div>
 
